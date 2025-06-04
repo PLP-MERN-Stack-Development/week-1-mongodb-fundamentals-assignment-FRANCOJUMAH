@@ -17,6 +17,9 @@ This assignment focuses on learning MongoDB fundamentals including setup, CRUD o
 
 
 ## Submission
-
+_ Screenshot of MongoDB Compass showing collection (books) and Database (plp_bookstore)_
 ![alt text](image.png)
 
+** Example of a MongoDB query to: Find all books in a specific genre
+    db.books.find({ genre: "Fiction" }).pretty()
+![image](https://github.com/user-attachments/assets/9ddb35fb-18c0-4927-bdd1-35c2ec9cd2bc)
